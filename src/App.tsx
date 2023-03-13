@@ -14,13 +14,14 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">WEBTANKS</header>
+      <header className="App-header">skidmarks</header>
       <canvas
         ref={canvasRef}
-        id="webtanks"
+        id="skidmarks"
         width={600}
         height={400}
-        style={{ background: 'lightgrey' }}></canvas>
+        style={{ background: 'lightgrey' }}
+      />
     </div>
   );
 }

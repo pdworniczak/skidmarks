@@ -1,5 +1,5 @@
 {
-  "name": "webtanks",
+  "name": "skidmarks",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -29,12 +29,14 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format": "npx prettier --write src/* "
   },
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "prettier"
     ]
   },
   "browserslist": {
